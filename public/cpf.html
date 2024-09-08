@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação de CPF</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="cpf.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Validação de CPF</h2>
+        <form id="cpfForm" class="form-inline">
+            <div class="form-group mb-2">
+                <label for="cpfInput" class="sr-only">CPF</label>
+                <input type="text" class="form-control" id="cpfInput" placeholder="Digite o CPF">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2 ml-2">Validar</button>
+        </form>
+        <p id="cpfMessage" class="mt-3"></p>
+    </div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="cpf.js"></script>
+</body>
+</html>
